@@ -1,0 +1,25 @@
+{
+  "name": "lib-quality",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Wallison Fernando",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "helmet": "^3.11.0",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
